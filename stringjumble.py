@@ -43,11 +43,12 @@ for x in q:
 print(" ")
 
 k=list(txt.split())
-for x in k:
+a=[" "+x for x in k]
+for x in a:
     r=list(x)
     r=r[::-1]
     for y in r:
-        print(y, end=' ')
+        print(y, end='')
 
     
     
