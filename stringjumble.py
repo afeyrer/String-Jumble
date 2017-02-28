@@ -32,7 +32,8 @@ print('you entered "'+txt+'". Now jumble it: ')
 z=list(txt)
 z=z[::-1]
 for x in z:
-    print(x)
+    print(x, end="")
+print(" ")
 
 q=list(txt.split())
 print(q)
