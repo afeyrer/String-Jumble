@@ -29,7 +29,12 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 import string
 txt=input("Please enter a string of text (the bigger the better): ")
 print('you entered "'+txt+'". Now jumble it: ')
+z=list(txt)
+z=z[::-1]
+for x in z:
+    print(x)
 
-
+q=list(txt.split())
+print(q)
 
 print(string.ascii_lowercase)
