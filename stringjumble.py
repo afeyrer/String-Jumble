@@ -28,7 +28,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 import string
 txt=input("Please enter a string of text (the bigger the better): ")
-print('you entered "'+txt+'". Now jumble it: ')
+print('you entered "'+txt+'". Now jumble it:')
 
 z=list(txt)
 z=z[::-1]
